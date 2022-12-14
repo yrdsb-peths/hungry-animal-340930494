@@ -11,6 +11,6 @@ comment3.params=
 comment3.target=void\ increaseScore()
 comment3.text=\r\n\ Increase\ score\ method\r\n
 comment4.params=
-comment4.target=void\ createApple()
+comment4.target=void\ spawnApple()
 comment4.text=\r\n\ Create\ a\ new\ apple\ at\ random\ location\ at\ the\ top\ of\ screen\r\n
 numComments=5
