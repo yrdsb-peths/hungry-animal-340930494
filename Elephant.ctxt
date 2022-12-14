@@ -2,6 +2,13 @@
 comment0.target=Elephant
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Elephant\ here.\r\n\ \r\n\ @author\ (Jacky\ Liang)\ \r\n\ @version\ (12/05/22)\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Elephant\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-numComments=2
+comment1.target=Elephant()
+comment1.text=\r\n\ Constructor\ -\ The\ code\ that\ gets\ run\ one\ time\ when\ object\ is\ created\r\n
+comment2.params=
+comment2.target=void\ animateElephant()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ eat()
+comment4.text=\r\n\ Eat\ the\ apple\ and\ spawn\ new\ apple\ if\ an\ apple\ is\ eaten.\r\n
+numComments=5
