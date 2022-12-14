@@ -23,7 +23,7 @@ public class Elephant extends Actor
             idleRight[i] = new GreenfootImage("images/elephant_idle/idle" + i + ".png");
             idleRight[i].scale(75, 75);
         }
-        
+    
         for(int i = 0; i < idleLeft.length; i++) {
             idleLeft[i] = new GreenfootImage("images/elephant_idle/idle" + i + ".png");
             idleLeft[i].mirrorHorizontally();
@@ -54,7 +54,7 @@ public class Elephant extends Actor
             imageIndex = (imageIndex + 1) % idleLeft.length;
         }
     }
-    
+    //allows elephant to move left and right
     public void act() 
     {
         //Add your code here
